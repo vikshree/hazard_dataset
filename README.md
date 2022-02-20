@@ -2,14 +2,7 @@
 A visuo-lingual dataset for extreme environments. The work has been submitted to IROS 2022.
 
 **The full dataset is coming soon!**
-## Citation
-```Shell
-@article{shree2022multimodal,
-  title={Multi-modal Perception for Planning Cooperative Escape from Hazardous Environment},
-  author={Shree, Vikram and Allen, Sarah and Asfora, Beatriz and Banfi, Jacopo and Campbell, Mark},
-  journal={submitted to IROS 2022}
-}
-  ```
+----
   
 Sample dataset
 ------
@@ -33,12 +26,11 @@ Below are few sample images from the dataset, their corresponding danger danger 
 | <img src="files/d3_03.png" width="800"> | ('mess', 1) <br> ('trash', 1) <br> ('wreckage', 2) <br> ('collapse', 3) <br>  ('accident', 3) | 
 | <img src="files/d3_04.png" width="800"> | ('broken', 2) <br> ('blast', 5) <br> ('waste', 5) <br> ('metal', 2) <br> ('wreckage', 3) | 
 | <img src="files/d3_05.png" width="800"> | ('disaster', 3) <br> ('falling', 3) <br> ('cracking', 3) <br> ('tremor', 3) <br> ('broken', 5) | 
-
-| <img src="files/d2_01.png" width="800"> | ('fire', 5) <br> ('smoke', 3) <br> ('trapped', 3) <br> ('explosion', 4) <br> ('accident', 4)| 
-| <img src="files/d2_02.png" width="800"> | ('dark', 5) <br> ('fire', 5) <br> ('trapped', 4) <br>  ('smoke', 4) <br> ('heat', 5) | 
-| <img src="files/d2_03.png" width="800"> | ('fire', 5) <br> ('smoke', 3) <br> ('trapped', 3) <br> ('explosion', 4) <br> ('accident', 4)| 
-| <img src="files/d2_04.png" width="800"> | ('dark', 5) <br> ('fire', 5) <br> ('trapped', 4) <br>  ('smoke', 4) <br> ('heat', 5) | 
-| <img src="files/d2_05.png" width="800"> | ('fire', 5) <br> ('smoke', 3) <br> ('trapped', 3) <br> ('explosion', 4) <br> ('accident', 4)| 
+| <img src="files/d2_01.png" width="800"> | ('darkness', 2) <br> ('car', 1) <br> ('smoke', 4) <br> ('fire', 4) <br> ('destruction', 4) | 
+| <img src="files/d2_02.png" width="800"> | ('sewer', 3) <br> ('rushing', 5) <br> ('ocean', 3) <br> ('inundation', 2) <br> ('darkness', 2) |
+| <img src="files/d2_03.png" width="800"> | ('trash', 2) <br> ('earthquake', 4) <br> ('debris', 2) <br> ('dark', 3) <br> ('alley', 3) | 
+| <img src="files/d2_04.png" width="800"> | ('kids', 1) <br> ('quiet', 1) <br> ('scared', 2) <br> ('hiding', 2) <br> ('subway', 3) | 
+| <img src="files/d2_05.png" width="800"> | ('stairs', 2) <br> ('flooding', 4) <br> ('damaged', 2) <br> ('house', 2) <br> ('smoky', 3) | 
 
 
 | <img src="files/d1_01.png" width="800"> | ('fire', 5) <br> ('smoke', 3) <br> ('trapped', 3) <br> ('explosion', 4) <br> ('accident', 4)| 
