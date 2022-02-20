@@ -1,2 +1,2 @@
-# extreme_danger_dataset
+# Extreme Environment Dataset
 A visuo-lingual dataset for extreme environments
