@@ -1,0 +1,49 @@
+d1_01 - [('destroying', 2), ('vandalism', 1), ('mess', 1), ('robbed', 1), ('weapon', 3), ('dark', 3), ('breaking', 2), ('messy', 2), ('smoke', 1), ('haze', 2)]
+
+d1_02 - [('wall', 1), ('gun', 2), ('car', 1), ('man', 2), ('car', 4), ('man', 1), ('skit', 2), ('helmet', 2), ('building', 1), ('clean', 1)]
+
+d1_03 - [('tranquility', 1), ('formal', 1), ('ship', 1), ('nice', 1), ('skylight', 1), ('titanic', 1), ('stairs', 1), ('people', 1), ('flood', 1), ('passangers', 1)]
+
+d1_04 - [('hallway', 1), ('white', 1), ('door', 1), ('white', 1), ('ligth', 1), ('corridor', 1), ('nights', 2), ('dry', 1), ('house', 2), ('vacant', 1)]
+
+d1_05 - [('smoke', 3), ('smoke', 2), ('debris', 3), ('smoke', 5), ('dark', 2), ('falling', 1), ('candles', 3), ('dark', 3), ('anxiety', 1), ('ancient', 2)]
+
+d2_01 - [('darkness', 2), ('car', 1), ('smoke', 4), ('car', 2), ('group', 1), ('destruction', 1), ('fire', 3), ('fire', 4), ('destruction', 4), ('dark', 4)]
+
+d2_02 - [('sewer', 3), ('land', 2), ('rushing', 5), ('ocean', 3), ('dark', 3), ('night', 3), ('inundation', 4), ('inundation', 2), ('darkness', 2), ('strong', 2)]
+
+d2_03 - [('darkness', 1), ('trash', 2), ('dark', 4), ('earthquake', 4), ('wreckage', 2), ('dark', 4), ('man', 1), ('debris', 2), ('dark', 3), ('alley', 3)]
+
+d2_04 - [('kids', 1), ('quiet', 1), ('sitting', 1), ('room', 1), ('scared', 2), ('hiding', 2), ('homeless', 1), ('subway', 3), ('alone', 2), ('scared', 2)]
+
+d2_05 - [('dark', 1), ('daytime', 4), ('stairs', 2), ('flooding', 4), ('investigation', 4), ('damaged', 2), ('investigation', 2), ('house', 2), ('smoke', 2), ('smoky', 3)]
+
+d3_01 - [('dirty', 2), ('panic', 3), ('panic', 4), ('lowlight', 1), ('darkness', 2), ('cracks', 3), ('collapse', 5), ('crowded', 1), ('mess', 3), ('crowd', 3)]
+
+d3_02 - [('darkness', 3), ('high', 3), ('light', 3), ('smoke', 4), ('man', 3), ('gun', 4), ('building', 3), ('armed', 4), ('light', 2), ('rubble', 1)]
+
+d3_03 - [('mess', 1), ('dark', 2), ('trash', 1), ('messy', 1), ('wreckage', 2), ('collapse', 3), ('alley', 1), ('metal', 2), ('alleyway', 5), ('accident', 3)]
+
+d3_04 - [('heavy', 2), ('smoke', 4), ('broken', 2), ('blast', 5), ('waste', 5), ('metal', 2), ('accident', 3), ('wreckage', 3), ('things', 4), ('building', 3)]
+
+d3_05 - [('tremor', 3), ('disaster', 3), ('falling', 3), ('damage', 3), ('danger', 3), ('damage', 3), ('cracking', 3), ('water', 3), ('broken', 5), ('building', 3)]
+
+d4_01 - [('drowning', 5), ('ship', 5), ('drowning', 5), ('water', 1), ('passanger', 5), ('ship', 5), ('water', 5), ('interior', 4), ('stuck', 4), ('water', 1)]
+
+d4_02 - [('elevator', 4), ('smoke', 2), ('smoke', 5), ('smoke', 4), ('burning', 4), ('firemen', 4), ('building', 5), ('danger', 4), ('firefighters', 4), ('fire', 5)]
+
+d4_03 - [('water', 2), ('soot', 4), ('freeze', 5), ('flood', 5), ('water', 5), ('boat', 4), ('flood', 4), ('flood', 4), ('drown', 4), ('water', 2)]
+
+d4_04 - [('dark', 3), ('fumes', 2), ('tripping', 1), ('haze', 4), ('damaged', 4), ('women', 4), ('smoke', 1), ('house', 1), ('fire', 2), ('smoke', 2)]
+
+d4_05 - [('unsafe', 5), ('smoking', 3), ('weapon', 3), ('rubble', 5), ('people', 5), ('man', 2), ('fire', 3), ('man', 5), ('electricity', 5), ('spark', 4)]
+
+d5_01 - [('fire', 5), ('building', 5), ('smoke', 3), ('fire', 5), ('smoke', 5), ('trapped', 3), ('fire', 5), ('explosion', 4), ('accident', 4), ('smoke', 4)]
+
+d5_02 - [('dark', 5), ('fire', 5), ('fire', 5), ('trapped', 4), ('smoke', 4), ('heat', 5), ('storage', 5), ('smoke', 5), ('smoke', 5), ('fire', 4)]
+
+d5_03 - [('flood', 5), ('flooding', 5), ('cold', 5), ('water', 4), ('death', 5), ('expedite', 5), ('drowning', 5), ('sinking', 4), ('water', 4), ('water', 4)]
+
+d5_04 - [('flood', 4), ('flood', 5), ('water', 5), ('damage', 5), ('inundation', 5), ('ship', 5), ('gutted', 3), ('water', 4), ('flooding', 5), ('rush', 5)]
+
+d5_05 - [('smoke', 5), ('heat', 5), ('fire', 5), ('smoke', 5), ('fire', 4), ('fire', 4), ('smoke', 5), ('fire', 3), ('accident', 4), ('fireman', 5)]
