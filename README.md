@@ -9,7 +9,7 @@ Sample dataset
 Below are few sample images from the dataset, their corresponding danger danger rating, and keywords provided by Amazom Mechanical Turkers.
 
 
-| Image with danger distribution | Keywords with danger ratings|
+| Image with danger responses | Keywords with danger ratings|
 | ------------- |:-------------:| 
 | <img src="files/d5_01.png" width="800"> | ('fire', 5) <br> ('smoke', 3) <br> ('trapped', 3) <br> ('explosion', 4) <br> ('accident', 4)| 
 | <img src="files/d5_02.png" width="800"> | ('dark', 5) <br> ('fire', 5) <br> ('trapped', 4) <br> ('smoke', 4) <br> ('heat', 5) | 
@@ -31,14 +31,11 @@ Below are few sample images from the dataset, their corresponding danger danger 
 | <img src="files/d2_03.png" width="800"> | ('trash', 2) <br> ('earthquake', 4) <br> ('debris', 2) <br> ('dark', 3) <br> ('alley', 3) | 
 | <img src="files/d2_04.png" width="800"> | ('kids', 1) <br> ('quiet', 1) <br> ('scared', 2) <br> ('hiding', 2) <br> ('subway', 3) | 
 | <img src="files/d2_05.png" width="800"> | ('stairs', 2) <br> ('flooding', 4) <br> ('damaged', 2) <br> ('house', 2) <br> ('smoky', 3) | 
-
-
-| <img src="files/d1_01.png" width="800"> | ('fire', 5) <br> ('smoke', 3) <br> ('trapped', 3) <br> ('explosion', 4) <br> ('accident', 4)| 
-| <img src="files/d1_02.png" width="800"> | ('dark', 5) <br> ('fire', 5) <br> ('trapped', 4) <br>  ('smoke', 4) <br> ('heat', 5) | 
-| <img src="files/d1_03.png" width="800"> | ('fire', 5) <br> ('smoke', 3) <br> ('trapped', 3) <br> ('explosion', 4) <br> ('accident', 4)| 
-| <img src="files/d1_04.png" width="800"> | ('dark', 5) <br> ('fire', 5) <br> ('trapped', 4) <br>  ('smoke', 4) <br> ('heat', 5) | 
-| <img src="files/d1_05.png" width="800"> | ('fire', 5) <br> ('smoke', 3) <br> ('trapped', 3) <br> ('explosion', 4) <br> ('accident', 4)| 
-
+| <img src="files/d1_01.png" width="800"> | ('destroying', 2) <br> ('vandalism', 1) <br> ('robbed', 1) <br> ('breaking', 2) <br> ('haze', 2) | 
+| <img src="files/d1_02.png" width="800"> | ('wall', 1) <br> ('car', 1) <br> ('man', 1) <br> ('building', 1) <br> ('clean', 1) | 
+| <img src="files/d1_03.png" width="800"> | ('tranquility', 1) <br> ('formal', 1) <br> ('ship', 1) <br> ('skylight', 1) <br> ('stairs', 1) | 
+| <img src="files/d1_04.png" width="800"> | ('hallway', 1) <br> ('door', 1) <br> ('ligth', 1) <br> ('house', 2) <br> ('vacant', 1) | 
+| <img src="files/d1_05.png" width="800"> | ('smoke', 3) <br> ('debris', 3) <br> ('dark', 2) <br> ('falling', 1) <br> ('candles', 3) | 
 
 ## Contact
 Vikram Shree ([vs476@cornell.edu](mailto:vs476@cornell.edu))
