@@ -9,7 +9,7 @@ Sample dataset
 Below are few sample images from the dataset, their corresponding danger danger rating, and keywords provided by Amazom Mechanical Turkers.
 
 
-| Image with danger responses | Keywords with danger ratings|
+| Image with danger responses | Keyword samples with danger ratings|
 | ------------- |:-------------:| 
 | <img src="files/d5_01.png" width="800"> | ('fire', 5) <br> ('smoke', 3) <br> ('trapped', 3) <br> ('explosion', 4) <br> ('accident', 4)| 
 | <img src="files/d5_02.png" width="800"> | ('dark', 5) <br> ('fire', 5) <br> ('trapped', 4) <br> ('smoke', 4) <br> ('heat', 5) | 
