@@ -1,5 +1,5 @@
 # Hazardous Environment Dataset
-A visuo-lingual dataset for extreme environments. The work has been submitted to [IROS 2022](https://iros2022.org/).
+A visuo-lingual dataset for hazardous environments. The work has been submitted to [IROS 2022](https://iros2022.org/).
 
 **The full dataset is coming soon!**
 ----
