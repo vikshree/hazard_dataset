@@ -40,8 +40,7 @@ The dataset is divided into two parts: **language dataset** and **image dataset*
             |-- Images -> All image files in '.png' format present in that category, from that movie, belonging to that specific scene.
   ``` 
 ----
-**Please cite our paper as:**
-### Citation
+### Please cite our paper as:
 ```Shell
 @article{shree2022multimodal,
   title={Multi-modal Perception for Cooperative Escape Planning in Hazardous Environments},
@@ -50,7 +49,12 @@ The dataset is divided into two parts: **language dataset** and **image dataset*
   organization={IEEE}
 }
 ```
----
+----
+About the dataset
+------
+The 1002 images of the dataset were extracted from a total of 74 scenes collected from a combination of 15 movies (Backdraft 2, Cloverfield, Die Hard, Earthquake, Escape From LA, Escape From New York, Lifeline, Pandora, Sergio, The Final Destination, The Impossible, The Poseidon Adventure, The Towering Inferno, and Titanic) and 3 television series (Criminal Minds, Greys Anatomy, NCIS). Movies and TV series were chosen to ensure a variety of different disaster scenarios, such as fire, flooding, and earthquakes. Each scene has an average of 13.54 images (std. 4.93, minimum 4, maximum 26). For labelling, we use Amazon Mechanical Turk where Each image was examined by 15 unique workers, resulting in 15 danger level assignments and 45 keywords per image.
+
+-----
 Sample dataset
 ------
 Below are few sample images from the dataset, their corresponding danger danger rating, and keywords provided by Amazom Mechanical Turkers.
