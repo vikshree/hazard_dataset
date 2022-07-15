@@ -31,9 +31,26 @@ The dataset is divided into two parts: **language dataset** and **image dataset*
             |-- 'Language' ->  [('man looking at man', 1), ('lighting', 1), ('collapsed site', 1), ('people', 2), ('wall', 2), ('collapse', 2), ('rubble sliding', 3), ('landslide', 3), ('brick', 3), ('isolation', 2), ('rubble', 2), ('dust', 2), ('building', 2), ('demolish', 2), ('man', 2), ('accident', 4), ('damaged building', 4), ('reciprocation', 4), ('electrical wires', 3), ('wreckage', 3), ('climbing', 3), ('concrete', 4), ('metal', 4), ('trapped', 4), ('building collapse', 4), ('death', 4), ('blood', 4), ('earthquake', 4), ('debris', 4), ('trapped', 4), ('building', 3), ('collapsed', 3), ('climbing', 3), ('rubble', 2), ('destruction', 2), ('darkness', 2), ('falling', 2), ('cutting', 2), ('collapse', 2), ('collapse', 3), ('rubble', 3), ('explosive', 3), ('vandalization', 4), ('destruction', 4), ('destroy', 4)] 
             |-- 'category' -> 'train'
   ```
-**The full dataset is coming soon!**
+
+2. The **image dataset** can be downloaded from [here](https://drive.google.com/file/d/1rnG9OsqSuqR8KBbmW9mSeKuisVHQFt1j/view?usp=sharing). The 'DisasterMovieDataset' folder contains the dataset and is arranged as follows:
+  ```bash
+      |-- Category -> Dataset category: train/val/test.
+        |-- Movie name -> Name of the movie.
+          |-- Scene name -> Scene category.
+            |-- Images -> All image files in '.png' format present in that category, from that movie, belonging to that specific scene.
+  ``` 
 ----
-  
+**Please cite our paper as:**
+### Citation
+```Shell
+@article{shree2022multimodal,
+  title={Multi-modal Perception for Cooperative Escape Planning in Hazardous Environments},
+  author={Shree, Vikram and Allen, Sarah and Asfora, Beatiz and Banfi, Jacopo and Campbell, Mark},
+  booktitle={2022 IEEE/RSJ International Conference on Intelligent Robots and Systems},
+  organization={IEEE}
+}
+```
+---
 Sample dataset
 ------
 Below are few sample images from the dataset, their corresponding danger danger rating, and keywords provided by Amazom Mechanical Turkers.
