@@ -1,9 +1,36 @@
 # Hazardous Environment Dataset
 A visuo-lingual dataset for hazardous environments. The work has been accepted to [IROS 2022](https://iros2022.org/).
 
-The dataset is divided into two parts: language dataset and image dataset.
- Markup : 1. Bullet list The language data is stored in the form of a dictionary and can be found in [DangerLanguageInformation.p](https://github.com/vikshree/hazard_dataset/blob/main/DatasetLanguageInformation.p)
+The dataset is divided into two parts: **language dataset** and **image dataset**.
 
+1. The **language data** is stored in the form of a dictionary and can be found in [DangerLanguageInformation.p](https://github.com/vikshree/hazard_dataset/blob/main/DatasetLanguageInformation.p). The dictionary is structured as:
+  ```bash
+      |-- Movie name -> Name of the movie.
+        |-- Scene name -> Scene category.
+          |-- Image number -> Number corresponding to the image.
+            |-- 'Danger Level' -> Array of size 5 depicting the number of people voting for each danger level.
+            |-- 'Keywords' -> Words provided by AMT users.
+            |-- 'img_path' -> Path of the corresponding image file in Image dataset.
+            |-- 'mode' -> Mode of the danger distribution for that particular image.
+            |-- 'entropy' -> Entropy of the normalized probability mass function of danger.
+            |-- 'median' -> Median of the normalized probability mass function.
+            |-- 'Language' -> Array of tuples where each tuple denotes the keywords used ny AMT uder and corresponding danger rating. 
+            |-- 'category' -> Dataset category: train/val/test.
+  ```
+  For example, 
+  ```bash
+      |-- 'EscapeFromNewYork'
+        |-- 'Bridge_129'
+          |-- '15'
+            |-- 'Danger Level' -> [1, 5, 4, 5, 0]  
+            |-- 'Keywords' ->  ['man looking at man', 'lighting', 'collapsed site', 'people', 'wall', 'collapse', 'rubble sliding', 'landslide', 'brick', 'isolation', 'rubble', 'dust', 'building', 'demolish', 'man', 'accident', 'damaged building', 'reciprocation', 'electrical wires', 'wreckage', 'climbing', 'concrete', 'metal', 'trapped', 'building collapse', 'death', 'blood', 'earthquake', 'debris', 'trapped', 'building', 'collapsed', 'climbing', 'rubble', 'destruction', 'darkness', 'falling', 'cutting', 'collapse', 'collapse', 'rubble', 'explosive', 'vandalization', 'destruction', 'destroy']
+            |-- 'img_path' -> 'train/EscapeFromNewYork/Bridge_129/img15.png'
+            |-- 'mode' -> 3
+            |-- 'entropy' ->  0.786245363513509
+            |-- 'median' -> 3.0
+            |-- 'Language' ->  [('man looking at man', 1), ('lighting', 1), ('collapsed site', 1), ('people', 2), ('wall', 2), ('collapse', 2), ('rubble sliding', 3), ('landslide', 3), ('brick', 3), ('isolation', 2), ('rubble', 2), ('dust', 2), ('building', 2), ('demolish', 2), ('man', 2), ('accident', 4), ('damaged building', 4), ('reciprocation', 4), ('electrical wires', 3), ('wreckage', 3), ('climbing', 3), ('concrete', 4), ('metal', 4), ('trapped', 4), ('building collapse', 4), ('death', 4), ('blood', 4), ('earthquake', 4), ('debris', 4), ('trapped', 4), ('building', 3), ('collapsed', 3), ('climbing', 3), ('rubble', 2), ('destruction', 2), ('darkness', 2), ('falling', 2), ('cutting', 2), ('collapse', 2), ('collapse', 3), ('rubble', 3), ('explosive', 3), ('vandalization', 4), ('destruction', 4), ('destroy', 4)] 
+            |-- 'category' -> 'train'
+  ```
 **The full dataset is coming soon!**
 ----
   
