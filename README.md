@@ -2,7 +2,7 @@
 A visuo-lingual dataset for hazardous environments. The work has been accepted to [IROS 2022](https://iros2022.org/).
 
 The dataset is divided into two parts: language dataset and image dataset.
-The language data is stored in the form of a dictionary and can be found in [DangerLanguageInformation.p](https://github.com/vikshree/hazard_dataset/blob/main/DatasetLanguageInformation.p)
+ Markup : 1. Bullet list The language data is stored in the form of a dictionary and can be found in [DangerLanguageInformation.p](https://github.com/vikshree/hazard_dataset/blob/main/DatasetLanguageInformation.p)
 
 **The full dataset is coming soon!**
 ----
