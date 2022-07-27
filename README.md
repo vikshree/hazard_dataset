@@ -32,7 +32,7 @@ The dataset is divided into two parts: **language dataset** and **image dataset*
             |-- 'category' -> 'train'
   ```
 
-2. The **image dataset** can be downloaded from [here](https://drive.google.com/file/d/1rnG9OsqSuqR8KBbmW9mSeKuisVHQFt1j/view?usp=sharing). The 'DisasterMovieDataset' folder contains the dataset and is arranged as follows:
+2. The **image dataset** can be downloaded from [here](https://drive.google.com/file/d/1rnG9OsqSuqR8KBbmW9mSeKuisVHQFt1j/view?usp=sharing) or [here](https://www.dropbox.com/s/ft7auduou4i75lg/DisasterMovieDataset.zip?dl=0). The 'DisasterMovieDataset' folder contains the dataset and is arranged as follows:
   ```bash
       |-- Category -> Dataset category: train/val/test.
         |-- Movie name -> Name of the movie.
